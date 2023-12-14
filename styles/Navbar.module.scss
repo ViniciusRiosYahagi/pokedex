@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2em 1.2em;
+    margin-bottom: 2em;
+    background-color: #333;
+    color: rgb(241, 241, 241);
+    border-bottom: #ff0000a2 3px solid;
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        a {
+    
+            text-decoration: none;
+        }
+
+        h1 {
+            margin-left: 0.2em;
+            color: rgb(241, 241, 241);
+            
+            span {
+                color: #ff0000a2;
+            }
+
+        }
+    }
+
+    ul {
+       display: flex;
+       list-style: none;
+
+       li {
+        margin-right: 1.3em;
+
+        a {
+           color: rgb(241, 241, 241);
+           text-decoration: none;
+           padding: 5px;
+           transition: 0.4s; 
+           border-bottom: 2px solid transparent;
+
+           &:hover {
+            border-color: rgb(241, 241, 241);
+           }
+        }
+       }
+
+    }
+
+}

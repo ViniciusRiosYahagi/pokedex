@@ -1,0 +1,17 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    height: 250px;
+    margin-top: 2em;
+    border-top: 3px solid #ff0000a2;
+    color: rgb(241, 241, 241);
+
+    span {
+        font-weight: bold;
+    }
+    a {
+        color: rgb(241, 241, 241);
+    }
+}
